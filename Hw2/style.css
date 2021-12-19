@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* 1.First level */
+
+blockquote {
+    color: green;
+}
+
+/* 2.Second level */
+
+a[href^='https://'] {
+    color:red;
+}
+
+.holder > ul > li:last-child a {
+    background-color: green;
+}
+
+.holder ul + p {
+    font-size: 26px;
+}
+
+/* 3.Third level (“working with css”) */
+
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-child(7) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* 4. Fourth level */
+.bg-box { 
+   height: 100vh;
+   background: url(https://www.freeiconspng.com/uploads/lamp-png-0.png) top / 50px repeat-x, 
+    url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png) bottom / 300px repeat-x, 
+    url("image/donut.png") right / 50px repeat-y, 
+    url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru) left / 50px repeat-y,
+    url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg) center / auto no-repeat; 
+    background-color: green
+}
